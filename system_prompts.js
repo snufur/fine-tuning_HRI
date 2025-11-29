@@ -136,7 +136,7 @@ const MODEL_CONFIGS = {
         systemPrompt: SYSTEM_PROMPTS.polite
     },
     neutral: {
-        model: 'Qwen/QwQ-32B',
+        model: 'ft:LoRA/Qwen/Qwen2.5-32B-Instruct:unyu3efqww:neutral_ft:cjnbibxetdegmxjvgcpy',
         systemPrompt: SYSTEM_PROMPTS.neutral
     },
     impolite: {
@@ -158,4 +158,5 @@ if (typeof window !== 'undefined') {
     window.SYSTEM_PROMPTS = SYSTEM_PROMPTS;
     window.MODEL_CONFIGS = MODEL_CONFIGS;
 }
+
 
