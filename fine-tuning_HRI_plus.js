@@ -1532,7 +1532,7 @@ class ExperimentManager {
                 // 如果只有SYSTEM_PROMPTS，构建配置（使用项目中的模型映射）
                 const fallbackModels = {
                     polite: 'ft:LoRA/Qwen/Qwen2.5-32B-Instruct:unyu3efqww:polite_infoseeking_746:kvygxnperqkxdrasgapc',
-                    neutral: 'Qwen/QwQ-32B',
+                    neutral: 'ft:LoRA/Qwen/Qwen2.5-32B-Instruct:unyu3efqww:neutral_ft:cjnbibxetdegmxjvgcpy',
                     impolite: 'ft:LoRA/Qwen/Qwen2.5-32B-Instruct:unyu3efqww:impolite_info_950:xyyzcufgydbjrvqchxpk'
                 };
                 return {
